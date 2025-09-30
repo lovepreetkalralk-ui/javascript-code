@@ -37,3 +37,19 @@ const myFunction=function(){
 }
 console.log(typeof temperature)// object
 console.log(typeof myFunction) // function object
+/////////////////////////////////////////////////////////////////////
+// primitive (stack ) ,, non primitive (heap)
+let myYoutubeName="hitesh.com";
+let anotherName=myYoutubeName;
+anotherName="chaiAurCode";
+console.log(anotherName);
+console.log(myYoutubeName);// ye abhi bhi terkeo hitesh.com he dega means ki copy gyi h original
+// value ke andar koi chnage ni hua
+ let userone={
+    email:"www.hitesh@gmail.com",
+    id:123
+ }
+ let userTwo=userone; // userone and userTwo dono ek he cheez ko point kr rhe h
+ userTwo.email="www.hitesh@googl.com";
+ console.log(userone.email);
+ console.log(userTwo.email);
