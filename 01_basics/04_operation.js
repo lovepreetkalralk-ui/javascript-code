@@ -1,16 +1,17 @@
 let value=3
 let negvalue=-value
-console.log(negvalue)
+console.log(negvalue) //-3
 // console.log(3+3);
 // console.log(3-3);
 // console.log(3*3);
-// console.log(2**3);//power
+// console.log(2**3);//power ans=8
 // console.log(3/4);
 // console.log(2%3);
 str1="hello";
 str2=" Lovepreet"
 str3=str1+str2;
 console.log(str3);
+
 console.log("1"+2);
 console.log(1+"2"); // the thing is to see how strings behave 
 console.log(1+1+"2");

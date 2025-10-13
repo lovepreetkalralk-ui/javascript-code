@@ -17,3 +17,8 @@ symbol=> unique*/
 console.log(typeof age) //number
 console.log(typeof null) // object
 console.log(typeof undefined)// undefined
+// there are two data types -primitive and non primitive data types
+// primitive:
+// string,number,boolean,undefined,null,symbol,big int
+// non primitive
+// object ,array ,function,date(special built in object types)
