@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+</head>
+<body>
+    <div  class="bg-black">
+    <h1 class="heading">Dom Learning on chai aur code</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
+<!--1. console.log(windows.document) likhne pe boht sra content de rha h
+but console.log(document) se head body ki kuch particular info he de rha h
+console.dir(document) likh denge (inspect kekee)
+ diagram
+                        window
+                           |
+                        document
+                           |
+                          html
+                           /  \
+                         head   body
+                        /    \     /
+                      title  meta  div=>attribute
+                      /       /      / \
+                text node  attribute h1 p 
+                                    / \    \
+                            attribute   text text 
+                                       node node
+    console.log(documnet.baseURI) // url 
+    console.log(documnet.links[2]) this is how web page can be accesed and manipulated
+    document.getElementById('firstHeading')
+    document.getElementById('firstHeading').innerHTML="<h1>"chia aur code</h1>
