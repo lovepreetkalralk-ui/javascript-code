@@ -12,8 +12,134 @@
 </head>
 <body class="bg-black">
     <div>
-    <h1 id="title "class="heading">Dom Learning on chai aur code</h1>
+    <h1 id="title "class="heading">Dom Learning on chai aur code 
+        <span style="display:none">text text</span>
+    </h1>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <h2>Lorem, ipsum dolor.</h2>
     <p>Lorem ipsum dolor sit amet.</p>
+    <input type="password" name="" id="">
+    <ul>
+    <li>one </li>
+    <li>two</li>
+    <li>three</li>
+
+        </ul>
     </div>
 </body>
 </html>
+
+<!--
+1.document.getElementById('title')
+op=<h1 id="title "class="heading">Dom Learning on chai aur code</h1>
+
+2.document.getElementById('title').id
+op=title
+
+3.document.getElementById('title')class
+op=undefined
+
+4.document.getElementById('title')className
+op=heading
+
+5.document.getElementById('title').getAttribute('id')
+op=title
+
+6.document.getElementById('title').getAttribite('class')
+op=heading
+
+7.document.getElementById('title').setAttribute('class','test')
+undefined 
+// jb aap esko test kroge toh actual mei class mei heading hatt ke test aa gya hoga ab
+(browser meishow hoga)
+
+8.document.getElementById('title').setAttribute('class','test heaading')
+// means the class is now test along with the previous one i.e heading
+
+9.const title=document.getElementById('title')
+op=undeifned
+
+10.title.style.backgroundColor='green'
+op=green
+
+11.title.style.padding="15px"
+
+12.title.style.borderRadius="15px"
+
+13.*interesting
+title.textContent
+op=DOM learning on chai aur code test text
+
+14.title.innerHTML
+OP=DOM learning on chai aur code
+
+15.title.innerText
+op=DOM learning on chai aur code
+ 
+
+// you can see the diff between innerContent anf inner Text
+// innerText mei sara ka sara text dekhega irrespective ki koi css ki style property se change bhi kr rkha ho toh bhi
+// but not in the case of innerContent
+//in innerHTML
+//Dom Learning on chai aur code 
+        <span style="display:none">text text</span>
+
+16.documentgetElementByClassName('heading')
+op=html collection
+
+17.document.querySelector('h2')
+op=page pe jo first h2 hoga woh mil jega
+
+18.document.querySelector('#title')
+op=<h1 id="title "class="heading">Dom Learning on chai aur code 
+        <span style="display:none">text text</span>
+    </h1>
+
+19.document.querySelector(.heading)
+op=<h1 id="title "class="heading">Dom Learning on chai aur code 
+        <span style="display:none">text text</span>
+    </h1>
+
+20.document.querySelector('input[type="password"]')
+
+21.document.querySelector('p:first-child')
+
+document.querySelector('ul')
+op=sara ul list
+
+22.const myul=document.querySelector('ul')
+
+myul.querySelector('li')
+
+23.const turnGreen=myul.querySelector('li')
+
+24.turnGreen.style.backgroundColor="green"
+'green'
+
+25.turnGreen.style.padding="10px"
+
+26.turnGreen.innerText
+op='one'
+
+27.turnGreen.innerText="five"
+
+28.document.querSelectorAll('li')
+op=nodelist
+
+29.const tempList=document.querySelectorAll('li')
+op=undefined
+
+30.tempList
+
+31. const myArr=[1,2,3,4,5] eske prototype mei define h sab cheeze jo aap yha kr skte ho
+
+32.tempList.style.color='green'
+
+30.
+
+
+
+
+
+
+-->
