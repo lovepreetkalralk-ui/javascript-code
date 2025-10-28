@@ -20,9 +20,9 @@
     <p>Lorem ipsum dolor sit amet.</p>
     <input type="password" name="" id="">
     <ul>
-    <li>one </li>
-    <li>two</li>
-    <li>three</li>
+    <li class="list-item">one </li>
+    <li class="list-item">two</li>
+    <li class="list-item">three</li>
 
         </ul>
     </div>
@@ -134,11 +134,34 @@ op=undefined
 31. const myArr=[1,2,3,4,5] eske prototype mei define h sab cheeze jo aap yha kr skte ho
 
 32.tempList.style.color='green'
+  // ye ese kaam nhi kr skta bcoz woh nodelist hai array nhi
+33. tempList[0].style.color='green'
 
-30.
+34. const myh1=document.querySelectorAll('h1')  // yha pr bhi myh1 node list h
+// esliye myh1[0].style.color='green'
 
+35.templist.forEach(function(l){
+l.style.backgroundColor='green'
+})
 
+36.document.getElementByClassName('list-item')
 
+37.const tempClasslist=document.getElementByClassName('list-item')
+// html collection
+
+38.tempClasslist.forEach(function(li){
+console.log(li)
+}) // ye nhi hoga html collection h kyuki so we have to convert it 
+
+39.Array.from(tempClasslist) // ese he convert hojega
+
+40.const myconvertedArray=Array.from(tempClasslist) 
+
+41.myconvertedArray.forEach(function(li){
+     li.style.color='orange'
+})
+
+42.
 
 
 
