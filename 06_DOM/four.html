@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body style="background-color:black;color:#fff";>
+    <ul class="lan">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addlanguage(langName){
+       const li= document.createElement('li')
+       li.innerHTML=`${language}`
+       document.querySelector('.lan').appendChild(li)
+    }
+    addlanguage("python")
+    addlanguage("typescript")
+    // problem of this is every time while inserting at end it traverse the whole tree which is not optimized 
+    // so in large project this is not used
+    function addOptimizedLanguage(langName){
+        const li=document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.lan').appendChild(li);
+    }
+    addOptimizedLanguage('golang')
+    //edit 
+    const secondLang=document.querySelector("li:nth-child(2)")
+    //secondLang.innerhtml
+
+</script>
+</html>
