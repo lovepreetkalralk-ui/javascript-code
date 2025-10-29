@@ -28,7 +28,19 @@
     addOptimizedLanguage('golang')
     //edit 
     const secondLang=document.querySelector("li:nth-child(2)")
-    //secondLang.innerhtml
+    //secondLang.innerhtml="mojo" ye optimized nhi h
+    const newli=document.createElement('li')
+    newli.textContent="mojo"
+    secondLang.replaceWith(newli)
+
+    // example 2:  of edit
+    const firstLang=document.querySelector("li:first-child")
+    firstLang.outerHTML='<li>TypeScript</li>'
+
+    //remove
+    const lastLang=document.querySelector('li:last-child')
+    lastLang.remove()
+
 
 </script>
 </html>
