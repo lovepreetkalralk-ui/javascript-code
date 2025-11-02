@@ -23,6 +23,9 @@
         clearTimeout(changeMe) // event ko rok deta hai
         console.log("STOPPED")
     })
-    
+    const sayDate=setInterval(function(str){
+        console.log("Hitesh",Date.now());
+    },1000)
+    setInterval(sayDate,1000,"hii")
 </script>
 </html>
